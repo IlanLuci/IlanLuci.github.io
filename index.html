@@ -1,33 +1,40 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>Simply Shoot V2</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-
-	<link rel="manifest" href="appmanifest.json">
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<link rel="apple-touch-icon" sizes="128x128" href="icons/icon-128.png">
-	<link rel="apple-touch-icon" sizes="256x256" href="icons/icon-256.png">
-	<link rel="apple-touch-icon" sizes="512x512" href="icons/icon-512.png">
-	<link rel="icon" type="image/png" href="icons/icon-512.png">
-
-<link rel="stylesheet" href="style.css">
-
-</head>
-<body>
-<div id="fb-root"></div>
-
-	<noscript>
-		<div id="notSupportedWrap">
-			<h2 id="notSupportedTitle">This content requires JavaScript</h2>
-			<p class="notSupportedMessage">JavaScript appears to be disabled. Please enable it to view this content.</p>
-			<p class="notSupportedMessage">This game was developed with Construct 3 - an <a href="https://www.construct.net/en">online game creator</a>.</p>
-		</div>
-	</noscript>
-	<script src="scripts/supportcheck.js"></script>
-	<script src="scripts/offlineclient.js"></script>
-	<script src="scripts/main.js"></script>
-	<script src="scripts/register-sw.js"></script>
-</body>
+    <head>
+        <title>Ilan's Games</title>
+        <style>
+            .mainContent
+            {
+                display: inline;
+                background-color: #32a852;
+            }
+            .buttons
+            {
+                width: 20vw;
+                height: 10vh;
+                margin-top: 50vh;
+                position: absolute;
+                background-color: white;
+            }
+            .buttonText
+            {
+                width: 100%;
+                height: 100%;
+                padding-top:1vh;
+                display: inline-block;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: #32a852;
+            }
+        </style>
+    </head>
+    <body class="mainContent">
+        <div class="buttons" style="margin-left: 28vw;">
+            <a href="SimplyShoot/">
+                <p class="buttonText">Simply Shoot</p>
+            </a>
+        </div>
+        <div class="buttons" style="margin-left: 52vw;">
+            <p class="buttonText">Boss Bomber</p>
+        </div>
+    </body>
 </html>
