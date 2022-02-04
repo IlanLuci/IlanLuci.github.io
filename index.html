@@ -1,9 +1,7 @@
 <html>
     <head>
         <script>
-            window.beforeunload = (e) => {
-                e.preventDefault();
-                
+            window.onbeforeunload = (e) => {
                 e.returnValue = 'you sure?';
             }
         </script>
